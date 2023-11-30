@@ -1,0 +1,22 @@
+
+@keyframes fadeIn {
+    from {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+@keyframes fadeInSet {
+    from {
+      transform: translate(-100%, 0);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+}
